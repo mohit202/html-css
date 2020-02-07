@@ -1,0 +1,77 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.header
+{
+    background:rgb(83, 81, 81);
+}
+.container
+{
+    width:88%;
+    margin:0 auto;  
+}
+
+.row
+{
+    
+    display:flex;
+}
+
+.logo
+{
+    padding:20px 10px;
+    font-size:25px;
+    font-weight:100;
+}
+.logo p
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(145, 138, 138);
+}
+.navbar ul
+{
+    list-style:none;
+}
+.navbar ul li
+{
+    display:inline-block;
+    padding:6px;
+    padding:5px 10px;
+}
+.navbar ul li a
+{
+    text-decoration:none;
+    color:rgb(145, 138, 138);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar ul li a:hover
+{
+    text-decoration: underline; 
+}
+/* article-section */
+.article
+{
+    background:rgb(204, 199, 199);
+    width:100%;
+    margin:0 auto;
+    height:300px;
+    margin:30px 0px;
+    border-radius:10px;
+}
+.content-section
+{
+    padding:10px 104px;
+}
+.content-section h1
+{
+    
+}
+
+
+
+
