@@ -1,0 +1,118 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+/* -----------Header-Section--------------- */
+.header
+{
+    background:rgb(83, 81, 81);
+}
+.container
+{
+    width:84%;
+    margin:0 auto;  
+}
+
+.row
+{
+    
+    display:flex;
+}
+
+.logo
+{
+    padding:20px 10px;
+    font-size:25px;
+    font-weight:100;
+}
+.logo p
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(145, 138, 138);
+}
+.navbar ul
+{
+    list-style:none;
+}
+.navbar ul li
+{
+    display:inline-block;
+    padding:6px;
+    padding:5px 10px;
+}
+.navbar ul li a
+{
+    text-decoration:none;
+    color:rgb(145, 138, 138);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar ul li a:hover
+{
+    text-decoration: underline; 
+}
+
+/* ----------header-sectiion-end------------- */
+.row
+{
+width:100%;
+}
+.col-8
+{
+    width:70%;
+
+}
+.col-4
+{
+  width:30%;
+  margin:20px 10px;
+    
+}
+.heading h2
+{
+    font-size:30px;
+    
+}
+.text
+{
+    border-bottom:1px solid rgb(190, 180, 180);
+    border-top:1px solid rgb(190, 180, 180);
+    
+}
+.box
+{
+    width:100%;
+    padding:80px 0px;
+    background:#ddd;
+    margin-top:10px;
+}
+.box p
+{
+    text-align:center;
+    font-size:24px;
+   
+}
+/* ---------col-4------------- */
+.search-section
+{
+    background:#ddd;
+    padding:20px 0px;
+  
+}
+
+/* -----Blog categories-------- */
+.blog-categories
+{
+    display:flex;
+    margin-top:15px;
+    flex-direction:row;
+    width:100%;
+    background:#ddd;
+}
+.sidebox
+{
+    background:#ddd;
+}
