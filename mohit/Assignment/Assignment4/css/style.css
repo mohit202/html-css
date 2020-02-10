@@ -6,23 +6,20 @@ body
 /* -----------Header-Section--------------- */
 .header
 {
-    background:rgb(83, 81, 81);
+    background:#222222;
 }
 .container
 {
     width:84%;
     margin:0 auto;  
 }
-
 .row
 {
-    
     display:flex;
 }
-
 .logo
 {
-    padding:20px 10px;
+    padding:18px 7px;
     font-size:25px;
     font-weight:100;
 }
@@ -32,7 +29,7 @@ body
     padding:0;
     font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
-    color:rgb(145, 138, 138);
+    color:#63676D;
 }
 .navbar ul
 {
@@ -41,78 +38,307 @@ body
 .navbar ul li
 {
     display:inline-block;
-    padding:6px;
     padding:5px 10px;
 }
 .navbar ul li a
 {
     text-decoration:none;
-    color:rgb(145, 138, 138);
+    color:#63676D;
     font-family:Arial, Helvetica, sans-serif;
 }
 .navbar ul li a:hover
 {
     text-decoration: underline; 
 }
-
 /* ----------header-sectiion-end------------- */
+.row-wrapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .row
 {
 width:100%;
 }
 .col-8
 {
-    width:70%;
-
-}
-.col-4
-{
-  width:30%;
-  margin:20px 10px;
+    width:65%;
+    padding:0px 24px;
     
 }
+
 .heading h2
 {
     font-size:30px;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;   
+}
+.heading p
+{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;   
+}
+.heading span
+{
+    font-size:22px;
+    margin:0px 4px;
+    color:#488BC9;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .text
 {
     border-bottom:1px solid rgb(190, 180, 180);
     border-top:1px solid rgb(190, 180, 180);
-    
+}
+.text p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:rgb(53, 50, 50);
+ 
 }
 .box
 {
     width:100%;
-    padding:80px 0px;
-    background:#ddd;
-    margin-top:10px;
+    padding:92px 0px;
+    background:#CCCCCC;
+    margin-top:18px;
 }
 .box p
 {
     text-align:center;
-    font-size:24px;
+    font-size:52px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    color:#969696;
    
 }
-/* ---------col-4------------- */
-.search-section
+.box p span
 {
-    background:#ddd;
-    padding:20px 0px;
-  
+    font-size:30px;
+    padding:0px 5px;
 }
+.content h3
+{
+    border-top:1px solid rgb(190, 180, 180);
+    padding-top:20px;
+    font-weight:500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
 
-/* -----Blog categories-------- */
-.blog-categories
+}
+/* ---------col-4------------- */
+.col-4
+{
+  width:29%;
+  margin:0;   
+}
+.search-section,.blog-categories,.sidebox
 {
     display:flex;
-    margin-top:15px;
+    margin-top:30px;
     flex-direction:row;
+    border:1px solid rgb(172, 167, 167);
+    border-radius:4px;
     width:100%;
-    background:#ddd;
+    background:#F5F5F5;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-bottom: 15px;
 }
-.sidebox
+.search-section h4,.blog-categories h4,.sidebox h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:40px;
+    width: 100%;
+    padding:0;
+    margin: 0px;
+}
+
+.search-section input
 {
-    background:#ddd;
+    width:76%;
+    text-align:center;
+    border:1px solid rgb(187, 176, 176);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: left;
+    padding: 0px 15px;
+
 }
+.search-section p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.search-set{
+    width: 100%;
+    display: flex;
+
+}
+.search-set button{
+    background: #fff;
+    border:1px solid rgb(172, 167, 167);
+    border-left:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding:7px 15px;
+}
+/* -----Blog categories-------- */
+.f-categories {
+    width: 50%;
+}
+.blog-categories ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding:5px;
+   
+}
+.blog-categories ul li a
+{
+    text-decoration:none;
+    color:#5FA2D4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding: 5px 0px;
+}
+.blog-categories ul li a:hover
+{
+    text-decoration:underline;
+    padding: 5px 0px;
+}
+
+.f-categories span
+{
+    font-size:16px;
+    margin-top:10px;
+    padding-left:18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* SIDE WIDE SECT */
+.sidebox p
+{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:300;
+    line-height: 19px;
+    
+}
+
+/* --------footer---------------- */
+
+.footer{
+    width: 100%;
+    display: flex;
+}
+.footer p
+{
+    padding:25px 0px;
+    font-size:12px;
+    color:rgb(112, 108, 108);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*===========Responsvie css start========*/
+/* Medium devices (tablets, less than 992px)*/
+
+@media only screen and (max-width: 991.98px){
+
+     .container
+    {
+        width:90%;
+    }
+
+    .col-8
+    {
+        width:65%;
+        padding:0;
+
+        
+    }
+    .col-4{
+        width: 32%;
+        
+    }
+    .heading{
+        width: 100%;
+    }
+    .heading h2{
+        font-size: 26px;
+    }
+    
+    .heading p{
+        font-size: 14px;
+    }
+
+}
+/*Small devices (landscape phones, less than 768px)*/
+
+@media only screen and (max-width: 767.98px) {
+    .row-wrapp{
+        justify-content: center;
+    }
+
+    .col-8
+    {
+        width:100%;
+        padding:0;
+
+        
+    }
+    .col-4{
+        width: 50%;
+        
+    }
+    .footer p{
+        text-align: center;
+    }
+    
+
+ 
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px){
+    .navbar ul li{
+        padding: 5px 4px;
+    }
+    .navbar ul li a{
+        font-size: 14px;
+    }
+    .navbar ul li a:hover{
+        font-size: 14px;
+    }
+    .row-wrapp{
+        justify-content: center;
+    }
+
+    .col-8
+    {
+        width:100%;
+        padding:0;
+
+        
+    }
+    .col-4{
+        width: 70%;
+        
+    }
+    
+    .heading h2{
+        font-size: 20px;
+    }
+    
+  }
+
+  

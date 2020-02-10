@@ -3,6 +3,7 @@ body
     margin:0;
     padding:0;
 }
+/* --------header-section-start------------ */
 .header
 {
     background:rgb(83, 81, 81);
@@ -53,7 +54,8 @@ body
 {
     text-decoration: underline; 
 }
-/* article-section */
+/* ---------header-section-end-------------- */
+/* ---------------------article-section-start-------------------- */
 .article
 {
     background:rgb(218, 214, 214);
@@ -93,7 +95,8 @@ body
     margin-top:10px;
     background:#227dc7;
 }
-/* ---------------Section---------------------- */
+/* ---------------article-section-end-------------------------- */
+/* ---------------item-group-section-start--------------------- */
 .section
 {
     border-top:1px solid rgb(190, 180, 180);
@@ -189,7 +192,18 @@ margin:10px 0px;
     font-family:Arial, Helvetica, sans-serif;
     color:rgb(112, 108, 108);
 }
-/* ------------------Responsive CSS start------------------------ */
+/* -------------items-group-section-end------------------------ */
+
+/* -------------footer-start------------------------------ */
+.footer p
+{
+    padding:25px 0px;
+    font-size:12px;
+    color:rgb(112, 108, 108);
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* --------------footer-end-------------------------------------------- */
+
 
 /*===========Responsvie css start========*/
 /* Medium devices (tablets, less than 992px)*/
