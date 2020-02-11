@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+}
+.nav > .dropdown{
+    position:relative;
+    left:0%;
+    padding:20px 0px;
+}
+.nav > .dropdown > ul
+{
+list-style: none;
+margin:0 auto;
+width:92%;
+padding:0;
+background:#66d9ff;
+}
+.nav > .dropdown > ul > li
+{
+display:inline-block;
+padding: 12px 15px;
+color:white;
+position: relative;
+}
+.nav > .dropdown > ul > li:hover
+{
+background:#000;
+color:red;
+transition:1.5s;
+cursor:pointer;
+}
+.nav > .dropdown > ul > li > ul.dropdown-menu
+{
+list-style-type: none;
+margin:0;
+top:40px;
+left:0;
+padding:0;
+position: absolute;
+display:none;
+}
+.nav > .dropdown > ul > li > .dropdown-menu > li
+{
+padding:10px 55px;
+background:#66d9ff;
+text-align:center; 
+color:white;
+}
+.nav > .dropdown > ul > li > .dropdown-menu > li:hover
+{
+background-color: black;
+color:rgb(233, 5, 17);  
+transition:0.5s;
+}
+.nav > .dropdown > ul > li:hover ul.dropdown-menu{
+display:block;
+}
+/* responsive css */
+/* -------medium-device(tablets less than 992px------------- */
+@media only screen and (max-width:991.8)
+{
+    .nav > .dropdown > ul 
+    {
+    width:100%;
+    }
+    .nav > .dropdown > ul > li {
+        display: inline-block;
+        padding: 8px 1px;
+        color: white;
+        position: relative;
+    }
+}
+/* --------small-device( landscap phones less than 768px)----------- */
+@media only screen and(max-width:767.98px)
+{
+
+}
+/* -----extra small device(portrait phone less than 576)------ */
+@media only screen and(max-width:575.98px)
+{
+
+}
