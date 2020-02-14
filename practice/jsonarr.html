@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<script>
+var data = [
+    
+{"firstname":"gaurav","lastname":"singh","age":"25-2-1998"},
+];
+
+//var x = document.getElementById("myTable").rows[0].cells.length;
+
+for(var i=0;i<data.length;i++)
+{
+   // document.write(`${data[i].firstname}  ${data[i].lastname}  ${data[i].age}`);
+   document.write(data[i].firstname);
+   document.write(data[i].lastname);
+   document.write(data[i].age);
+   //document.getElementById("name").innerHTML = data[i].firstname;
+   
+}
+</script>
+<body>
+    <table id="myTable">
+        <thead>
+        <tr>
+            <th>firstname</th>
+            <th>lastname</th>
+            <th>age</th>
+        </tr>
+    </thead>
+    <tbody>
+     <tr>
+         <td> </td>
+         <td> </td>
+         <td> </td>
+     </tr>
+    </tbody>
+    </table> 
+</body>
+</html>

@@ -2,6 +2,11 @@ body{
     margin:0;
     padding:0;
 }
+.nav 
+{
+width:1140px;
+margin:0 auto;
+}
 .nav > .dropdown{
     position:relative;
     left:0%;
@@ -11,14 +16,14 @@ body{
 {
 list-style: none;
 margin:0 auto;
-width:92%;
+width:100%;
 padding:0;
 background:#66d9ff;
 }
 .nav > .dropdown > ul > li
 {
 display:inline-block;
-padding: 12px 15px;
+padding: 12px 10px;
 color:white;
 position: relative;
 }
@@ -56,27 +61,49 @@ transition:0.5s;
 display:block;
 }
 /* responsive css */
-/* -------medium-device(tablets less than 992px------------- */
-@media only screen and (max-width:991.8)
-{
-    .nav > .dropdown > ul 
-    {
-    width:100%;
-    }
-    .nav > .dropdown > ul > li {
-        display: inline-block;
-        padding: 8px 1px;
-        color: white;
-        position: relative;
-    }
+/*===========Responsvie css start========*/
+
+/* Medium devices (tablets, less than 992px)*/
+
+@media only screen and (max-width: 991.98px){
+   .nav
+   {
+	   width:1140px;
+   }
+   .nav > .dropdown > ul > li
+	{
+	padding: 12px 10px;
+	position: relative;
+	}
 }
-/* --------small-device( landscap phones less than 768px)----------- */
-@media only screen and(max-width:767.98px)
-{
+/*Small devices (landscape phones, less than 768px)*/
+
+@media only screen and (max-width: 767.98px) {
+	.nav
+	{
+		width:1000px;
+	}
+	.nav > .dropdown > ul > li
+	{
+	padding: 10px 5px;
+	color:white;
+	position: relative;
+	}
 
 }
-/* -----extra small device(portrait phone less than 576)------ */
-@media only screen and(max-width:575.98px)
-{
-
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px){
+.nav{
+	width:300px;
 }
+.nav > .dropdown > ul > li{
+	display: block;
+}
+.nav > .dropdown > ul > li > ul.dropdown-menu{
+	position: relative;
+}
+.nav > .dropdown > ul > li > .dropdown-menu > li{
+	padding: 10px 7px;
+	text-align: left;
+}
+    }  

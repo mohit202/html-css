@@ -1,0 +1,22 @@
+    table
+{
+    width:50%;   
+}
+th
+{
+    background:#aaa;
+}
+td
+{
+    background:#ccc;
+}
+table,th
+{
+    border:1px solid black;
+    padding:10px 5px;
+    border-collapse: collapse;
+}
+table, tr, td {
+  border: 1px solid black;
+  padding:10px 5px;
+}
