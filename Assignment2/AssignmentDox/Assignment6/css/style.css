@@ -1,0 +1,424 @@
+body
+{
+    background:url(../images/Assignment6a.png);
+    margin:0;
+    padding:0;
+}
+.container
+{
+    width:1140px;
+    margin:0 auto;
+   
+}
+.header
+{
+    background:#ffff;
+    border:1px solid rgb(240, 234, 234);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    
+}
+.row ,.navrow
+{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between; 
+}
+/* -----logo-section------- */
+.logo
+{
+    width:65%;
+   
+}
+/* -----search-section------ */
+.search
+{
+    width:24%;
+}
+.search h2
+{
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#008000;
+    font-size:17px;
+}
+.link
+{
+    text-align:center;
+}
+.link a
+{
+   border-right:1px solid black;
+   padding:2px 5px;
+   color:#583321;
+   font-size:16px;
+   font-weight:bold;
+ 
+}
+#txt
+{
+    padding:1px 20px;
+    margin-top:10px;
+}
+#btn
+{
+    background:#80002a;
+    border:none;
+    color:white;
+    padding:3px;
+}
+/* ----------navigation-bar---------------- */
+.navrow
+{
+   background:#80002a;
+   width:100%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.navbar
+{
+width:60%;
+}
+.navbar ul
+{
+    list-style:none;
+    margin:0;
+    padding-top:15px;
+    padding-bottom:5px;
+}
+.navbar ul li
+{
+    display:inline-block;
+    padding:0px 10px;
+    border-right:1px solid rgb(224, 219, 219);
+}
+.navbar ul li a
+{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--- phone-num---*/
+.phonenum
+{
+    width:25%;
+}
+.phonenum h2
+{
+    margin:0;
+    padding:0;
+    color:#ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-left: 93px;
+    padding-top: 6px;
+}
+/* ----------------wrapper-section--------------------- */
+.wrapper
+{
+    width:100%;
+    border:1px solid #ffff;
+    margin-top:20px;
+    border-radius:10px;
+    background:#fff;
+}
+.wrapper-row
+{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+/* ------sidebar-------- */
+.sidebar
+{
+    width:24%;
+}
+.sidebaritems
+{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.box1 ,.box2 ,.box3
+{
+width:80%;
+padding:0px 0px;
+background:#ddd;
+margin:10px 10px;
+}
+.box1
+{
+    border:1px solid #80002a;
+}
+.box1 h2
+{
+    margin:0;
+    padding:0;
+    font-size:18px;
+    font-weight:600;
+    color:#ffff;
+    background:#80002a;
+    padding:5px 0px;
+}
+.box1 ul
+{
+    list-style:none;
+}
+.box1 ul li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height:18px;
+}
+.box2
+{
+    
+    border:1px solid #80002a;
+    background-image:url(../images/assignment66.png);
+    background-size: cover;
+    height:35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box2 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2.bottom-heading
+{
+    position: relative;
+    top:78%;
+}
+
+.box3
+{
+  
+   border:1px solid #80002a;
+}
+.box3 h2
+{
+    background:#80002a;
+    margin:0;
+   
+    padding:5px 0px;
+    font-size:18px;
+    font-weight:600;
+    color:#ffff;
+   
+}
+.box3 p
+{
+    text-align:center;
+}
+.box3 > input
+{
+    margin-left:20px;
+    margin-top:8px;
+}
+ #signbtn
+{
+   margin-left:70px;
+   margin-top:5px;
+   padding:6px 4px;
+   color:#fff;
+   text-transform:uppercase;
+   border:none;
+   background:#80002a;
+}
+.box3logo
+{
+    width:100%;
+}
+.box3logo img
+{
+    padding: 15px 13px;
+    width: 46px;
+    position: relative;
+    left: 34px;
+}
+/* -----------article--------*/
+.article
+{
+    width:76%;
+}
+.img-container
+{
+     background-image:url(../images/assignment6.png);
+     border-top-right-radius: 10px;
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position:relative;
+}
+.text-box
+{
+    width:300px;
+    position:absolute;
+    bottom:20px;
+    
+    right:20px;
+    background:rgba(255,255,255,0.5);
+}
+.text-box h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size:24px;
+    text-align:center;
+}
+.text-box h2 span
+{
+    font-weight: bold;
+}
+/* ---------article-container------------ */
+.article-container
+{
+    width:100%;
+    display:flex;
+}
+.content-section
+{
+    width:70%;
+}
+.content-section ul
+{
+    list-style-image:url(../images/assign_leaf.png);
+   
+}
+.content-section ul li
+{
+    line-height:30px;
+    padding-left:10px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.heading h2
+{
+    font-size:24px;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:45px;
+    padding:5px 0px;
+    color:#008000;
+}
+.sidebar-section
+{
+    width:28%;
+    display:flex;
+    flex-wrap:wrap;
+   
+    margin-top:10px;
+}
+.news
+{
+   
+    border:1px solid #80002a;
+}
+.news h2
+{
+    background:#80002a;
+    margin:0;
+    padding:5px 0px;
+    font-size:18px;
+    color:#fff;
+    
+}
+.news p
+{
+    padding:0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.certficates
+{
+    margin-top:10px;
+    border:1px solid #80002a;
+}
+.certficates ul
+{
+    list-style:none;
+}
+.certficates ul li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.certficates h2
+{
+    background:#80002a;
+    padding-top:10px;
+    color:#fff;
+    padding:5px 0px;
+    font-size:18px;
+    margin:0;   
+}
+/* -------------footer-section--------- */
+.footer
+{
+    width:100%;
+    margin-top:20px;
+}
+.footer-row
+{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.fbox1,.fbox2,.fbox3,.fbox4,.fbox5,.fbox6
+{
+    width:16%;
+    border-right:1px solid rgb(196, 182, 182);
+}
+.fbox1 img
+{
+    width:150px;
+    position: relative;
+    left: 20px;
+    top: 36px;
+}
+.fbox2 h2,.fbox3 h2,.fbox4 h2,.fbox5 h2 
+{
+    margin:0;
+    padding:0;
+   
+    font-size:16px;
+    font-weight:700;
+    color:#80002a;
+    padding-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fbox2 ul ,.fbox3 ul ,.fbox4 ul ,.fbox5 ul 
+{
+    list-style:none;
+    margin:0;
+    padding-left:10px;
+    padding-top:5px;
+}
+.fbox2 ul li,.fbox3 ul li,.fbox4 ul li,.fbox5 ul li
+{
+    font-size:14px;
+    line-height:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fbox6
+{
+    text-align:center;
+    padding-top:20px;
+}
+.fbox6 a
+{
+    text-decoration:none;
+}

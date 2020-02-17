@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table
+{
+    width:50%;
+    
+}
+th
+{
+    background:#aaa;
+}
+td
+{
+    background:#ccc;
+}
+table,th
+{
+    border:1px solid black;
+    padding:10px 5px;
+    border-collapse: collapse;
+    
+   
+}
+table, tr, td {
+  border: 1px solid black;
+  padding:10px 5px;
+}
+</style>
+</head>
+<body>
+<table id="myTable">
+    <tr>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>age</th>
+    </tr>
+  <tr>
+    <td id="fname"> </td>
+    <td id="lname"> </td>
+    <td id="age"> </td>
+  </tr>
+</table>
+<script>
+    var data =
+{
+    "firstname":"gaurav",
+    "lastname":"singh",
+    "dob":"06-06-1996"
+}
+  document.getElementById("fname").innerHTML =data.firstname;
+  document.getElementById("lname").innerHTML =data.lastname;
+  document.getElementById("age").innerHTML =data.dob;
+
+</script>
+
+</body>
+</html>
