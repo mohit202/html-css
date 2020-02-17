@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"src="js/javascript.js"></script>
+    <style>
+    th:hover
+    {
+        cursor:pointer;
+        background:rgb(70, 67, 67);
+    }
+    </style>
+</head>
+<body>
+    <p id="p"></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <table class="table table-dark"id="table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable(0)">First Name</th>
+                            <th onclick="sortTable(1)">Last Name</th>
+                            <th onclick="sortTable(2)">Id</th>
+                            <th onclick="sortTable(3)">Email Id</th>
+                            <th onclick="sortTable(4)">phone Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gaurav</td>
+                            <td>Mishra</td>
+                            <td>2</td>
+                            <td>gaura@gmail.com</td>
+                            <td>7083439485</td>
+                        </tr>
+                        <tr>
+                            <td>Arnav</td>
+                            <td>Kumar</td>
+                            <td>1</td>
+                            <td>arnav@gmail.com</td>
+                            <td>9920399027</td>
+                        </tr>
+                        <tr>
+                            <td>Kapil</td>
+                            <td>Singh</td>
+                            <td>5</td>
+                            <td>kapil@gmail.com</td>
+                            <td>3988737829</td>
+                        </tr>
+                        <tr>
+                            <td>Rohit</td>
+                            <td>Rathor</td>
+                            <td>3</td>
+                            <td>rohit@gmail.com</td>
+                            <td>7083439485</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
